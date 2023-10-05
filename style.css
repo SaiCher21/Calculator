@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding:0;
-    font-family:'poppins', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
     box-sizing: border-box;
 }
 
@@ -25,14 +25,14 @@
     outline:0;
     width:55px;
     height:55px;
-    border-radius:12px;
+    border-radius:40px;
     background:transparent;
     font-size:18px;
     color:white;
     margin:4px;
     cursor:pointer;
     /* transition:0.1s solid rgb(228, 216, 216); */
-    box-shadow:-8px -8px 15px rgba(99, 96, 96, 0.1), 5px 5px 15px rgba(126, 120, 120, 0.2)
+    box-shadow:-8px -8px 15px rgba(104, 104, 104, 0.1), 5px 5px 15px rgba(100, 100, 100, 0.2)
 }
 
 form .display{
@@ -50,8 +50,4 @@ form .display input{
 
 form input.equal{
     width:122px;
-}
-
-form input.operator{
-    color:orange
 }
